@@ -1,0 +1,435 @@
+.common {
+  border-color: $color-common;
+  background-color: rgba($color-common, 0.4);
+}
+
+.uncommon {
+  border-color: $color-uncommon;
+  background-color: rgba($color-uncommon, 0.4);
+}
+
+.legendary {
+  border-color: $color-legendary;
+  background-color: rgba($color-legendary, 0.4);
+}
+
+.boss {
+  border-color: $color-boss;
+  background-color: rgba($color-boss, 0.4);
+}
+
+.lunar {
+  border-color: $color-lunar;
+  background-color: rgba($color-lunar, 0.4);
+}
+
+.equipment {
+  border-color: $color-equipment;
+  background-color: rgba($color-equipment, 0.4);
+}
+
+.icon {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+.leaf-clover {
+  background-image: url(../img/57-leaf-clover.png);
+}
+
+.aegis {
+  background-image: url(../img/aegis.png);
+}
+
+.alien-head {
+  background-image: url(../img/alien-head.png);
+}
+
+.armor-piercing-rounds {
+  background-image: url(../img/armor-piercing-rounds.png);
+}
+
+.atg-missile-mk-1 {
+  background-image: url(../img/atg-missile-mk.-1.png);
+}
+
+.backup-magazine {
+  background-image: url(../img/backup-magazine.png);
+}
+
+.bandolier {
+  background-image: url(../img/bandolier.png);
+}
+
+.beads-of-fealty {
+  background-image: url(../img/beads-of-fealty.png);
+}
+
+.berzerkers-pauldron {
+  background-image: url(../img/berzerkers-pauldron.png);
+}
+
+.blast-shower {
+  background-image: url(../img/blast-shower.png);
+}
+
+.brainstalks {
+  background-image: url(../img/brainstalks.png);
+}
+
+.brilliant-behemoth {
+  background-image: url(../img/brilliant-behemoth.png);
+}
+
+.brittle-crown {
+  background-image: url(../img/brittle-crown.png);
+}
+
+.bundle-of-fireworks {
+  background-image: url(../img/bundle-of-fireworks.png);
+}
+
+.bustling-fungus {
+  background-image: url(../img/bustling-fungus.png);
+}
+
+.cautious-slug {
+  background-image: url(../img/cautious-slug.png);
+}
+
+.ceremonial-dagger {
+  background-image: url(../img/ceremonial-dagger.png);
+}
+
+.chronobauble {
+  background-image: url(../img/chronobauble.png);
+}
+
+.corpsebloom {
+  background-image: url(../img/corpsebloom.png);
+}
+
+.crowbar {
+  background-image: url(../img/crowbar.png);
+}
+
+.dios-best-friend {
+  background-image: url(../img/dios-best-friend.png);
+}
+
+.disposable-missile-launcher {
+  background-image: url(../img/disposable-missile-launcher.png);
+}
+
+.eccentric-vase {
+  background-image: url(../img/eccentric-vase.png);
+}
+
+.effigy-of-grief {
+  background-image: url(../img/effigy-of-grief.png);
+}
+
+.energy-drink {
+  background-image: url(../img/energy-drink.png);
+}
+
+.focus-crystal {
+  background-image: url(../img/focus-crystal.png);
+}
+
+.foreign-fruit {
+  background-image: url(../img/foreign-fruit.png);
+}
+
+.fresh-meat {
+  background-image: url(../img/fresh-meat.png);
+}
+
+.frost-relic {
+  background-image: url(../img/frost-relic.png);
+}
+
+.fuel-array {
+  background-image: url(../img/fuel-array.png);
+}
+
+.fuel-cell {
+  background-image: url(../img/fuel-cell.png);
+}
+
+.gasoline {
+  background-image: url(../img/gasoline.png);
+}
+
+.genesis-loop {
+  background-image: url(../img/genesis-loop.png);
+}
+
+.gesture-of-the-drowned {
+  background-image: url(../img/gesture-of-the-drowned.png);
+}
+
+.ghors-tome {
+  background-image: url(../img/ghors-tome.png);
+}
+
+.glowing-meteorite {
+  background-image: url(../img/glowing-meteorite.png);
+}
+
+.gnarled-woodsprite {
+  background-image: url(../img/gnarled-woodsprite.png);
+}
+
+.h3ad-5t-v2 {
+  background-image: url(../img/h3ad-5t-v2.png);
+}
+
+.halcyon-seed {
+  background-image: url(../img/halcyon-seed.png);
+}
+
+.happiest-mask {
+  background-image: url(../img/happiest-mask.png);
+}
+
+.hardlight-afterburner {
+  background-image: url(../img/hardlight-afterburner.png);
+}
+
+.harvesters-scythe {
+  background-image: url(../img/harvesters-scythe.png);
+}
+
+.helfire-tincture {
+  background-image: url(../img/helfire-tincture.png);
+}
+
+.hopoo-feather {
+  background-image: url(../img/hopoo-feather.png);
+}
+
+.infusion {
+  background-image: url(../img/infusion.png);
+}
+
+.irradiant-pearl {
+  background-image: url(../img/irradiant-pearl.png);
+}
+
+.jade-elephant {
+  background-image: url(../img/jade-elephant.png);
+}
+
+.kjaros-band {
+  background-image: url(../img/kjaros-band.png);
+}
+
+.leeching-seed {
+  background-image: url(../img/leeching-seed.png);
+}
+
+.lens-makers-glasses {
+  background-image: url(../img/lens-makers-glasses.png);
+}
+
+.lepton-daisy {
+  background-image: url(../img/lepton-daisy.png);
+}
+
+.little-disciple {
+  background-image: url(../img/little-disciple.png);
+}
+
+.medkit {
+  background-image: url(../img/medkit.png);
+}
+
+.milky-chrysalis {
+  background-image: url(../img/milky-chrysalis.png);
+}
+
+.monster-tooth {
+  background-image: url(../img/monster-tooth.png);
+}
+
+.nkuhanas-opinion {
+  background-image: url(../img/nkuhanas-opinion.png);
+}
+
+.ocular-hud {
+  background-image: url(../img/ocular-hud.png);
+}
+
+.old-guillotine {
+  background-image: url(../img/old-guillotine.png);
+}
+
+.old-war-stealthkit {
+  background-image: url(../img/old-war-stealthkit.png);
+}
+
+.pauls-goat-hoof {
+  background-image: url(../img/pauls-goat-hoof.png);
+}
+
+.pearl {
+  background-image: url(../img/pearl.png);
+}
+
+.personal-shield-generator {
+  background-image: url(../img/personal-shield-generator.png);
+}
+
+.predatory-instincts {
+  background-image: url(../img/predatory-instincts.png);
+}
+
+.preon-accumulator {
+  background-image: url(../img/preon-accumulator.png);
+}
+
+.primordial-cube {
+  background-image: url(../img/primordial-cube.png);
+}
+
+.queens-gland {
+  background-image: url(../img/queens-gland.png);
+}
+
+.radar-scanner {
+  background-image: url(../img/radar-scanner.png);
+}
+
+.razorwire {
+  background-image: url(../img/razorwire.png);
+}
+
+.red-whip {
+  background-image: url(../img/red-whip.png);
+}
+
+.rejuvenation-rack {
+  background-image: url(../img/rejuvenation-rack.png);
+}
+
+.resonance-disc {
+  background-image: url(../img/resonance-disc.png);
+}
+
+.rose-buckler {
+  background-image: url(../img/rose-buckler.png);
+}
+
+.royal-capacitor {
+  background-image: url(../img/royal-capacitor.png);
+}
+
+.runalds-band {
+  background-image: url(../img/runalds-band.png);
+}
+
+.rusted-key {
+  background-image: url(../img/rusted-key.png);
+}
+
+.sentient-meat-hook {
+  background-image: url(../img/sentient-meat-hook.png);
+}
+
+.shaped-glass {
+  background-image: url(../img/shaped-glass.png);
+}
+
+.shattering-justice {
+  background-image: url(../img/shattering-justice.png);
+}
+
+.soldiers-syringe {
+  background-image: url(../img/soldiers-syringe.png);
+}
+
+.soulbound-catalyst {
+  background-image: url(../img/soulbound-catalyst.png);
+}
+
+.spinel-tonic {
+  background-image: url(../img/spinel-tonic.png);
+}
+
+.sticky-bomb {
+  background-image: url(../img/sticky-bomb.png);
+}
+
+.strides-of-heresy {
+  background-image: url(../img/strides-of-heresy.png);
+}
+
+.stun-grenade {
+  background-image: url(../img/stun-grenade.png);
+}
+
+.the-back-up {
+  background-image: url(../img/the-back-up.png);
+}
+
+.the-crowdfunder {
+  background-image: url(../img/the-crowdfunder.png);
+}
+
+.titanic-knurl {
+  background-image: url(../img/titanic-knurl.png);
+}
+
+.topaz-brooch {
+  background-image: url(../img/topaz-brooch.png);
+}
+
+.tougher-times {
+  background-image: url(../img/tougher-times.png);
+}
+
+.transcendence {
+  background-image: url(../img/transcendence.png);
+}
+
+.tri-tip-dagger {
+  background-image: url(../img/tri-tip-dagger.png);
+}
+
+.ukulele {
+  background-image: url(../img/ukulele.png);
+}
+
+.unstable-tesla-coil {
+  background-image: url(../img/unstable-tesla-coil.png);
+}
+
+.visions-of-heresy {
+  background-image: url(../img/visions-of-heresy.png);
+}
+
+.volcanic-egg {
+  background-image: url(../img/volcanic-egg.png);
+}
+
+.wake-of-vultures {
+  background-image: url(../img/wake-of-vultures.png);
+}
+
+.war-horn {
+  background-image: url(../img/war-horn.png);
+}
+
+.warbanner {
+  background-image: url(../img/warbanner.png);
+}
+
+.wax-quail {
+  background-image: url(../img/wax-quail.png);
+}
+
+.will-o-the-wisp {
+  background-image: url(../img/will-o-the-wisp.png);
+}

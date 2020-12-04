@@ -1,0 +1,58 @@
+@import '_variables';
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@font-face {
+  font-family: 'tracer';
+  src: url('../fonts/tracer.woff2') format('woff2'), url('../fonts/tracer.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  -webkit-font-smoothing: subpixel-antialiased;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: 14px;
+  min-width: 320px;
+
+  @apply bg-gray-900;
+}
+
+small {
+  @apply text-gray-600;
+}
+
+.number {
+  @apply font-bold;
+  @apply text-green-600;
+}
+
+.tippy-popper {
+  transition-timing-function: unset;
+  max-width: calc(100% - 8px);
+  pointer-events: none;
+  outline: 0;
+}
+
+.tippy-tooltip {
+  position: relative;
+  color: #fff;
+  border-radius: 0;
+  font-size: 0.875rem;
+  padding: 0;
+  line-height: 1.4;
+  text-align: center;
+  background-color: transparent;
+}
+
+.tippy-box[data-theme~='ror'] {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+@import '_icons.scss';
