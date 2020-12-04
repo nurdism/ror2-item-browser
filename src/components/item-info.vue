@@ -7,13 +7,13 @@
         <div class="w-16 h-16 border flex justify-center content-center" :class="[item.rarity]">
           <div class="relative flex flex-col justify-center content-center">
             <div :class="['icon', item.class]" class="block w-12 h-12" />
-            <span class="absolute font-bold text-white text-lg stack" v-if="item.count > 0">x{{ item.count + 1 }}</span>
+            <span class="absolute font-bold text-white text-lg stack" v-if="item.amount > 1">x{{ item.amount }}</span>
           </div>
         </div>
       </div>
 
       <div class="relative flex flex-col justify-center content-center ml-2 text-white">
-        <span class="text-left" v-html="item.effect(item.count)"></span>
+        <span class="text-left" v-html="item.effect(item.amount, equipment)"></span>
       </div>
     </div>
   </div>
@@ -33,7 +33,7 @@
 <script lang="ts">
   import { Component, Vue, Prop } from 'vue-property-decorator'
 
-  import { Item } from '../data'
+  import { Item, Equipment } from '../data'
 
   @Component({
     name: 'item-info',
@@ -41,5 +41,8 @@
   export default class App extends Vue {
     @Prop({ required: true })
     item!: Item
+
+    @Prop()
+    equipment!: Equipment
   }
 </script>

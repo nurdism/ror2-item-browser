@@ -1,14 +1,14 @@
 <template>
-  <div class="w-16 h-16 border flex justify-center content-center" :class="[item.rarity]">
+  <div class="w-16 h-16 border flex justify-center content-center" :class="[equipment.rarity]">
     <div class=" relative flex flex-col justify-center content-center">
-      <div :class="['icon', item.class]" class="block w-12 h-12" />
-      <span class=" absolute font-bold text-white text-lg stack" v-if="item.amount > 1">x{{ item.amount }}</span>
+      <div :class="['icon', equipment.class]" class="block w-12 h-12" />
+      <span class=" absolute font-bold text-white cooldown" v-if="equipment.cooldown > 1">{{ equipment.cooldown }}s</span>
     </div>
   </div>
 </template>
 
 <style scoped>
-  .stack {
+  .cooldown {
     top: -3px;
     right: -3px;
     font-family: 'tracer';
@@ -21,16 +21,13 @@
 <script lang="ts">
   import { Component, Vue, Prop } from 'vue-property-decorator'
 
-  import { Item, Equipment } from '../data'
+  import { Item } from '../data'
 
   @Component({
-    name: 'item-square',
+    name: 'equipment-square',
   })
   export default class App extends Vue {
     @Prop({ required: true })
-    item!: Item
-
-    @Prop()
-    equipment!: Equipment
+    equipment!: Item
   }
 </script>
