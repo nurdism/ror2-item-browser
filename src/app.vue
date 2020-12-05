@@ -1,16 +1,16 @@
 <template>
   <div class="container mx-auto my-5">
-    <div class="border border-gray-900 bg-gray-800 p-1">
+    <div class="bg-gray-800">
       <div class="font-bold bg-blue-900 text-white py-1 text-center flex-grow mb-2">SELECTED</div>
       <div class="flex flex-row">
-        <v-draggable class="flex flex-row flex-wrap min-h-20 w-full" :list="selected" group="items" @change="onChange">
+        <v-draggable class="flex flex-row flex-wrap min-h-20 w-full pb-2 px-2" :list="selected" group="items" @change="onChange">
           <template v-for="(item, index) in selected">
             <div :key="index" class="focus:outline-none p-1" @click="onClick(index)">
               <item-square :item="item" :equipment="equiped" />
             </div>
           </template>
         </v-draggable>
-        <div class="flex flex-row flex-wrap min-h-20">
+        <div class="flex flex-row flex-wrap min-h-20 pb-1 px-2">
           <div class="focus:outline-none p-1">
             <equipment-square v-if="equiped" :equipment="equiped" @click.native="setEquipment(null)" />
           </div>
@@ -18,10 +18,10 @@
       </div>
     </div>
 
-    <div class="border-b border-r border-l border-gray-900 bg-gray-800 p-1 flex flex-row items-start">
+    <div class="bg-gray-800 flex flex-row items-start">
       <div class="flex flex-col w-2/3">
         <div class="font-bold bg-blue-900 text-white py-1 text-center flex-grow mb-2">ITEMS</div>
-        <div class="flex flex-row flex-wrap min-h-20 justify-center">
+        <div class="flex flex-row flex-wrap min-h-20 justify-center pb-2">
           <template v-for="(item, index) in items">
             <div :key="index" class="focus:outline-none p-1">
               <item-square :name="`${index}-item`" :item="item" :equipment="equiped" @click.native="addItem(item)" />
@@ -31,7 +31,7 @@
       </div>
       <div class="flex flex-col w-1/3">
         <div class="font-bold bg-blue-900 text-white py-1 text-center flex-grow mb-2">EQUIPMENT</div>
-        <div class="flex flex-row flex-wrap min-h-20 justify-center flex-shrink">
+        <div class="flex flex-row flex-wrap min-h-20 justify-center flex-shrink pb-2">
           <template v-for="(equipment, index) in equipment">
             <div :key="index" class="focus:outline-none p-1">
               <equipment-square :name="`${index}-equipment`" :equipment="equipment" @click.native="setEquipment(equipment)" />
